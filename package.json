@@ -1,0 +1,40 @@
+{
+  "name": "jenkins-control",
+  "version": "0.0.1",
+  "description": "Aplicação NodeJS com o objetivo de controlar e criar jobs de forma programática no Jenkins.",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "run:prod": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleyssonazevedo/Jenkins-Control.git"
+  },
+  "keywords": [
+    "jenkins",
+    "controle",
+    "pipeline",
+    "jobs",
+    "job"
+  ],
+  "author": {
+    "name": "Cleysson Azevedo",
+    "email": "cleyssonazevedo@outlook.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleyssonazevedo/Jenkins-Control/issues"
+  },
+  "homepage": "https://github.com/cleyssonazevedo/Jenkins-Control#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "helmet": "3.22.0"
+  },
+  "devDependencies": {
+    "dotenv": "8.2.0",
+    "eslint": "6.8.0",
+    "eslint-config-google": "0.14.0",
+    "nodemon": "2.0.3"
+  }
+}
